@@ -1,0 +1,53 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0%;
+} 
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    padding: 1rem;
+}
+
+.title {
+    font-size: x-large;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation > div { 
+    padding-left: 2rem;
+}
+
+.navigation > div > a { 
+    text-decoration: none;
+    color: black;
+}
+
+.navigation > div > a:hover { 
+    text-decoration: none;
+    color: blue;
+}
+
+
+main { 
+    padding: 2rem;
+}
+
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
