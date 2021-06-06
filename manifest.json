@@ -9,6 +9,10 @@
     },
     {
       "src": "favicon.svg",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+      "src": "favicon.svg",
       "type": "image/png",
       "sizes": "192x192"
     },
