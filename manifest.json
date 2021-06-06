@@ -1,6 +1,11 @@
 {
   "short_name": "Code Blog",
   "name": "Radu Code Blog",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "rgb(237, 233, 254)",
+  "background_color": "rgb(237, 233, 254)",
   "icons": [
     {
       "src": "favicon.ico",
@@ -23,8 +28,4 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "rgb(237, 233, 254)",
-  "background_color": "rgb(237, 233, 254)"
 }
